@@ -64,7 +64,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ---
 
-### 📊 [PM Product Frameworks](https://github.com/yourusername/pm-frameworks) *(Coming Soon)*
+### 📊 [PM Product Frameworks]([https://github.com/yourusername/pm-frameworks]*(in progress)*
 **Battle-tested templates from shipping products at Microsoft & Starbucks**
 
 - PRD templates (technical, consumer, 0-to-1)
