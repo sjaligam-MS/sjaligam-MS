@@ -32,7 +32,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ## 🚀 Featured Projects
 
-### ⭐ [AI Incident Classifier](https://github.com/yourusername/ai-incident-classifier)
+### ⭐ [AI Incident Classifier](https://github.com/sjaligam-MS/ai-incident-classifier)
 **Automated support ticket triage using Claude AI**
 
 - **Problem Solved**: Reduced 3-4 hours of manual incident analysis to 2 minutes
@@ -48,7 +48,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ---
 
-### 🎬 [Movie Recommendation Engine](https://github.com/yourusername/movie-recommendation-rag)
+### 🎬 [Movie Recommendation Engine](https://github.com/sjaligam-MS/movie-recommendation-rag)
 **Semantic search using Gemini 2.0 Flash + RAG + FAISS vector indexing**
 
 - **Learning Goal**: Understand how modern AI products actually work (not just buzzwords)
@@ -64,7 +64,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ---
 
-### 📊 [PM Product Frameworks]([https://github.com/yourusername/pm-frameworks]*(in progress)*
+### 📊 [PM Product Frameworks]([https://github.com/sjaligam-MS/pm-frameworks]*(in progress)*
 **Battle-tested templates from shipping products at Microsoft & Starbucks**
 
 - PRD templates (technical, consumer, 0-to-1)
@@ -166,7 +166,7 @@ I don't need to be the best engineer on the team. But I need to be technical eno
 ## 🎓 Education
 
 **University of Texas at Dallas** - MS in Information Technology & Management (2013)  
-**JNTU, India** - BE in Mechanical Engineering (2007)
+**JNTU, India** - B-TECH in Mechanical Engineering (2007)
 
 ---
 
