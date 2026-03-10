@@ -160,7 +160,7 @@ I don't need to be the best engineer on the team. But I need to be technical eno
 - 🎯 LLM fine-tuning and prompt engineering at scale
 - 📊 Product analytics using Python (moving beyond SQL + dashboards)
 - 🚀 Building in public (this GitHub is part of it!)
-
+- 🔬 Exploring W&B for experiment tracking and ML observability
 ---
 
 ## 🎓 Education
