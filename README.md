@@ -32,7 +32,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ## 🚀 Featured Projects
 
-### ⭐ [AI Incident Classifier](https://github.com/sjaligam-MS/ai-incident-classifier)
+### ⭐ [AI Incident Classifier](https://github.com/sjaligam-MS/Townhall_Incident_Analyzer/blob/master/README.md)
 **Automated support ticket triage using Claude AI**
 
 - **Problem Solved**: Reduced 3-4 hours of manual incident analysis to 2 minutes
@@ -48,7 +48,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ---
 
-### 🎬 [Movie Recommendation Engine](https://github.com/sjaligam-MS/movie-recommendation-rag)
+### 🎬 [Movie Recommendation Engine](https://github.com/sjaligam-MS/Movie_Recommendation_Bot/blob/main/README.md)
 **Semantic search using Gemini 2.0 Flash + RAG + FAISS vector indexing**
 
 - **Learning Goal**: Understand how modern AI products actually work (not just buzzwords)
@@ -64,7 +64,7 @@ This GitHub showcases my hands-on work as a Principal PM:
 
 ---
 
-### 📊 [PM Product Frameworks]([https://github.com/sjaligam-MS/pm-frameworks]*(in progress)*
+### 📊 [PM Product Frameworks](https://github.com/sjaligam-MS/pm-frameworks/blob/main/README.md)*(in progress)*
 **Battle-tested templates from shipping products at Microsoft & Starbucks**
 
 - PRD templates (technical, consumer, 0-to-1)
