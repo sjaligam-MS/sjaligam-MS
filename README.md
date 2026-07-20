@@ -18,11 +18,6 @@ Two purpose-built agents with a hard, structural boundary between them: an **Acc
 > **Why it matters:** it turns the core PM motion — diverge to explore, converge to pressure-test — into software, and keeps the two apart so neither contaminates the other.
 > **Stack:** Python · pluggable LLM backend · offline-first pipeline
 
-### 🧑‍💼 [ClawChief](https://github.com/sjaligam-MS/clawchief) — a chief-of-staff operating system
-A portable "founder / chief-of-staff" operating model built on the OpenClaw agent framework and substantially re-architected (v3): a source-of-truth priorities layer, a live task system with a shared task contract, helper scripts for calendar/inbox/outreach workflows, executive-assistant and business-development skills, and deterministic cron routines — with tests that keep the pack honest.
-
-> **Why it matters:** shows an opinionated, real-world agent architecture for running the operational side of a leader's week.
-
 ### 🎫 [AI Incident Classifier](https://github.com/sjaligam-MS/Townhall_Incident_Analyzer) — automated ticket triage
 Automated support-ticket triage using Claude AI that turns 5–7 days of manual incident analysis into ~2 minutes, and generates Excel reports + PowerPoint decks automatically.
 
