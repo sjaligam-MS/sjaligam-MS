@@ -1,6 +1,6 @@
 # Hi, I'm Srikanth 👋
 
-**Principal Technical Product Manager | AI Products & Enterprise Platforms | 15 Years Building 0-to-1 Solutions at Scale**
+**Senior Product Manager | AI Products & Enterprise Platforms | 15 Years Building 0-to-1 Solutions at Scale**
 
 I'm a product leader who believes the best PMs are technical enough to prototype, strategic enough to influence executives, and hands-on enough to ship. These days I spend most of that hands-on time **building AI agents** — software that encodes how a senior PM actually thinks and works.
 
@@ -24,9 +24,9 @@ A portable "founder / chief-of-staff" operating model built on the OpenClaw agen
 > **Why it matters:** shows an opinionated, real-world agent architecture for running the operational side of a leader's week.
 
 ### 🎫 [AI Incident Classifier](https://github.com/sjaligam-MS/Townhall_Incident_Analyzer) — automated ticket triage
-Automated support-ticket triage using Claude AI that turns 3–4 hours of manual incident analysis into ~2 minutes, and generates Excel reports + PowerPoint decks automatically.
+Automated support-ticket triage using Claude AI that turns 5–7 days of manual incident analysis into ~2 minutes, and generates Excel reports + PowerPoint decks automatically.
 
-> **Why it matters:** production software deployed org-wide, processing 600–1,200 incidents/year — built by a PM who ships.
+> **Why it matters:** production software deployed org-wide, triaging 100–150 incidents per cycle — built by a PM who ships.
 > **Stack:** Python · Claude API · pandas · openpyxl · python-pptx
 
 ### 🎬 [Movie Recommendation Engine](https://github.com/sjaligam-MS/Movie_Recommendation_Bot) — semantic search with RAG
@@ -48,17 +48,17 @@ Natural-language movie search using Gemini 2.0 Flash + RAG + FAISS vector indexi
 
 ## 💼 Professional Background
 
-**Microsoft** — Principal / Senior Technical Product Manager, AI Products
+**Microsoft** — Senior Product Manager, AI Products *(Dec 2021–Present)*
 - Built AI capacity forecasting (92% accuracy, 18% cost reduction)
 - Launched 1080p streaming for 20K+ participants
 - Drove platform-wide quality improvements (15% UX lift; captioning 87% → 94%)
 
-**Starbucks** — Technical Product Manager, Enterprise Data Platforms *(200+ global users)*
+**Starbucks** — Technical Product Manager, Enterprise Data Platforms *(May 2018–Jun 2020 · 200+ global users)*
 - Built the "360 Data Suite" (Customer360, Product360, Store360)
 - Reached a 75% DAU/MAU ratio through product-led growth (no sales team)
 - Enabled personalized marketing at scale across US & China markets
 
-**Lamb Weston** — Technical Program Manager, Enterprise Systems *(McDonald's, IHOP global accounts)*
+**Lamb Weston** — Technical Program Manager, Enterprise Systems *(Oct 2012–May 2018 · McDonald's, IHOP global accounts)*
 
 ---
 
