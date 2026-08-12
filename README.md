@@ -18,6 +18,12 @@ Two purpose-built agents with a hard, structural boundary between them: an **Acc
 > **Why it matters:** it turns the core PM motion — diverge to explore, converge to pressure-test — into software, and keeps the two apart so neither contaminates the other.
 > **Stack:** Python · pluggable LLM backend · offline-first pipeline
 
+### 🏗️ [Parametric Cost Estimator](https://github.com/sjaligam-MS/GC_Cost_Estimator) — AI consulting engagement for a general contractor
+Scoped, designed, and built a conceptual cost-estimating tool for a residential general contractor as an independent AI consulting engagement — from first client conversation through a working, tested prototype. Deliberately deterministic (k-nearest-neighbors comparable-project matching, not an LLM or regression) so every output is auditable and no client cost data needs to leave their environment. CSI-division cost buildup with per-division confidence flagging, backtested against historical outcomes before any number is trusted.
+
+> **Why it matters:** end-to-end ownership of a real external client engagement — problem scoping, methodology tradeoffs, data strategy, security/deployment architecture, and shipped code — not a managed roadmap.
+> **Stack:** JavaScript (ES modules) · deterministic matching algorithm · Excel/VBA (parallel build) · Azure/Power Platform deployment design
+
 ### 🎫 [AI Incident Classifier](https://github.com/sjaligam-MS/Townhall_Incident_Analyzer) — automated ticket triage
 Automated support-ticket triage using Claude AI that turns 5–7 days of manual incident analysis into ~2 minutes, and generates Excel reports + PowerPoint decks automatically.
 
@@ -34,7 +40,7 @@ Natural-language movie search using Gemini 2.0 Flash + RAG + FAISS vector indexi
 
 ## 🎯 What I Do
 
-- **🤖 Build AI products** — I don't just manage AI products, I build them: from Claude-powered automation agents to RAG-based recommendation systems.
+- **🤖 Build AI products** — I don't just manage AI products, I build them: from Claude-powered automation agents to RAG-based recommendation systems to client-facing estimating tools.
 - **📈 Drive product-led growth** — orchestrated 800K+ seat enterprise migrations and 200+ organic-adoption motions without a sales team.
 - **💰 Protect revenue at scale** — $14M in protected revenue through strategic product decisions, competitive gap closure, and pricing.
 - **⚡ Optimize infrastructure** — 18% cost reduction, 92% ML prediction accuracy, and 2x engineering velocity through platform investments.
@@ -44,16 +50,17 @@ Natural-language movie search using Gemini 2.0 Flash + RAG + FAISS vector indexi
 ## 💼 Professional Background
 
 **Microsoft** — Senior Product Manager, AI Products *(Dec 2021–Present)*
-- Built AI capacity forecasting (92% accuracy, 18% cost reduction)
-- Launched 1080p streaming for 20K+ participants
-- Drove platform-wide quality improvements (15% UX lift; captioning 87% → 94%)
+- Built AI capacity forecasting reaching 92% accuracy while cutting infrastructure cost 18%
+- Launched 1080p streaming to 20K+ concurrent participants
+- Drove platform-wide quality gains: 15% UX lift, captioning accuracy 87% → 94%
 
 **Starbucks** — Technical Product Manager, Enterprise Data Platforms *(May 2018–Jun 2020 · 200+ global users)*
-- Built the "360 Data Suite" (Customer360, Product360, Store360)
-- Reached a 75% DAU/MAU ratio through product-led growth (no sales team)
+- Built the "360 Data Suite" (Customer360, Product360, Store360) from the ground up
+- Drove adoption to a 75% DAU/MAU ratio through product-led growth alone — no sales team
 - Enabled personalized marketing at scale across US & China markets
 
-**Lamb Weston** — Technical Program Manager, Enterprise Systems *(Oct 2012–May 2018 · McDonald's, IHOP global accounts)*
+**Lamb Weston** — Technical Program Manager, Enterprise Systems *(Oct 2012–May 2018)*
+- Ran enterprise systems delivery for global accounts including McDonald's and IHOP
 
 ---
 
@@ -63,6 +70,7 @@ Natural-language movie search using Gemini 2.0 Flash + RAG + FAISS vector indexi
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Excel/VBA](https://img.shields.io/badge/-Excel%2FVBA-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
 **Ship AI with:**
 ![Claude](https://img.shields.io/badge/-Claude%20AI-000000?style=flat)
@@ -74,7 +82,7 @@ Natural-language movie search using Gemini 2.0 Flash + RAG + FAISS vector indexi
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
-**Data & analytics:** pandas · NumPy · Jupyter · Tableau · Excel/VBA · PowerPoint automation
+**Data & analytics:** pandas · NumPy · Jupyter · Tableau · PowerPoint automation
 
 ---
 
