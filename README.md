@@ -8,12 +8,12 @@ Currently driving AI product strategy at **Microsoft** (Teams Platform). Previou
  
 ---
  
-## 🎯 What I Do
+## 📊 Impact at a Glance
  
-- **🤖 Build Multi-Agent AI Systems**: Designing Accomplice & Gauntlet — a dual-agent system with structurally enforced ideation/adversarial boundary, federated PM Memory, and pluggable offline LLM backend
-- **⚡ Ship Production AI**: Two production AI agents at Microsoft — incident classifier (Claude API, 5–7 days → 2 minutes) and real-time ops monitoring agent (Gemini, live event quality at 20K+ concurrent participants)
-- **📈 Drive Enterprise Scale**: $14M+ revenue impact, 800K+ enterprise seats protected, 9+ organizations aligned simultaneously
-- **🏗️ Platform Thinking**: 0→1 data platforms serving 200+ data scientists at 75% daily active adoption; MLOps pipelines at 92% production accuracy
+| $14M+ | 800K+ | 9+ | 3 | 20K+ | 200+ |
+|---|---|---|---|---|---|
+| Revenue Generated | Enterprise Seats Protected | Orgs Aligned | Production AI Agents | Concurrent Users | Data Scientists Served |
+ 
 ---
  
 ## 🚀 Featured Projects
@@ -31,8 +31,6 @@ Currently driving AI product strategy at **Microsoft** (Teams Platform). Previou
 # What it does in one line:
 PM idea → Accomplice ideates → Gauntlet stress-tests across 12+ lenses → Backlog-ready spec
 ```
- 
-**Why this matters**: This isn't a wrapper around an LLM. It's an opinionated multi-agent architecture with structural boundaries, federated memory, and adversarial review — built by a PM who understands the difference between a demo and a system.
  
 ---
  
@@ -54,19 +52,48 @@ Live event telemetry → Quality signal detection → Auto-drafted incident repo
  
 ---
  
-### 📊 [Movie Recommendation Engine](https://github.com/sjaligam-MS/Movie_Recommendation_Bot)
+### 🏗️ [GC Cost Estimator](https://github.com/sjaligam-MS/GC_Cost_Estimator)
+ 
+**Parametric cost estimator for residential general contractors — deterministic, auditable, human-in-the-loop**
+ 
+- **Problem**: Low-to-mid volume residential GCs need rough-order-of-magnitude pricing before drawings exist — existing AI takeoff tools (Togal, Kreo, Handoff AI) require drawings that don't exist at this stage
+- **Approach**: Parametric/conceptual estimating — matches new projects against comparable historical SOVs using weighted similarity scoring across project inputs (sqft, bed/bath, garage, levels, foundation type)
+- **Cost buildup**: Per CSI division (Concrete, Framing, Roofing, Windows & Doors, Finishes, Casework, Plumbing, HVAC, Electrical, Site/Earthwork) normalized as % of total cost — survives small historical samples better than flat $/sqft
+- **Output**: Range, not point estimate — total cost range, derived $/sqft, division-by-division breakdown, each tagged with confidence level (high/medium/low) based on input correlation
+- **Design principle**: Deterministic, not generative — core matching and cost math is rules-based arithmetic, fully auditable; contractor's proprietary cost data stays in their environment
+- **Tech Stack**: Python, HTML interactive prototype, parametric matching algorithms
+```
+# What it does:
+Project inputs (sqft, beds, garage, levels) → Comparable project matching → 
+CSI division cost breakdown with confidence flags → ROM range estimate
+```
+ 
+**Why this matters**: Built for a real contractor solving a real pre-drawings pricing problem. Shows product thinking: range over false precision, confidence shown per division, human-in-the-loop by design — not a black-box number generator.
+ 
+---
+ 
+### 🎬 [Movie Recommendation Engine](https://github.com/sjaligam-MS/Movie_Recommendation_Bot)
  
 **Semantic search using Gemini 2.0 Flash + RAG + FAISS vector indexing**
  
-- **Goal**: Understand how modern AI recommendation products actually work from the inside
+- **Goal**: Understand how modern AI recommendation products work from the inside
 - **Tech Stack**: Google Gemini 2.0 Flash, FAISS, RAG architecture, few-shot prompting, collaborative filtering, content-based filtering
-- **Key Insight**: Built to explore vector search, embeddings, and LLM reasoning at the application layer
 - **Product Thinking**: Integrated OTT/affiliate monetization model into the architecture
 ```
-# Natural language query example:
 "Suspenseful thrillers with strong female leads" → Vector search → Ranked recommendations
 ```
  
+---
+ 
+### 📋 [PM Frameworks](https://github.com/sjaligam-MS/pm-frameworks) *(in progress)*
+ 
+**Battle-tested templates from shipping products at Microsoft & Starbucks**
+ 
+- PRD templates (technical, consumer, 0→1)
+- Prioritization frameworks (Impact Score Model, Tech Debt vs Features)
+- OKR definition and tracking frameworks
+- Evaluation frameworks for AI product quality (accuracy, latency, confidence thresholds)
+- Stakeholder templates (Business cases, RFCs, Launch checklists)
 ---
  
 ## 💼 Professional Background
@@ -114,32 +141,11 @@ Live event telemetry → Quality signal detection → Auto-drafted incident repo
  
 ---
  
-## 🧠 Currently Building & Learning
- 
-- **Accomplice & Gauntlet**: Multi-agent orchestration with structural boundaries, federated memory, and adversarial review pipelines
-- **Eval frameworks at scale**: Designing multi-metric evaluation systems for production AI — confidence thresholds, false-positive tolerance, human escalation triggers
-- **Agentic memory architectures**: Federated PM Memory with provenance tracking (verified vs. inferred signals)
-- **Offline-capable LLM pipelines**: Pluggable model backends for enterprise deployment constraints
----
- 
-## 💡 Product Philosophy
- 
-> *"The best PMs are technical enough to design the architecture, strategic enough to influence the C-suite, and hands-on enough to ship. Knowing which mode to be in — and when to switch — is the actual skill."*
- 
-**What I believe**:
-- ✅ Production > Pilot
-- ✅ Evaluation frameworks > Vibes-based launches
-- ✅ Structural boundaries > Convention-based constraints
-- ✅ Provenance-tracked memory > Hallucinated context
-- ✅ Ship and iterate > Wait for perfect
----
- 
 ## 📫 Let's Connect
  
 - 💼 **LinkedIn**: [linkedin.com/in/srikanthjaligam](https://www.linkedin.com/in/srikanthjaligam/)
 - 📧 **Email**: srikanth.jaligam@gmail.com
 - 🌐 **Location**: Seattle, WA (Open to remote)
-- 💻 **GitHub**: You're already here
 ---
  
 *Building multi-agent AI systems. Shipping things that run in production. Learning in public.*
