@@ -1,106 +1,157 @@
 # Hi, I'm Srikanth 👋
-
-**Senior Product Manager | AI Products & Enterprise Platforms | 15 Years Building 0-to-1 Solutions at Scale**
-
-I'm a product leader who believes the best PMs are technical enough to prototype, strategic enough to influence executives, and hands-on enough to ship. These days I spend most of that hands-on time **building AI agents** — software that encodes how a senior PM actually thinks and works.
-
-Currently driving AI product strategy at **Microsoft**. Previously built enterprise data ecosystems at **Starbucks** serving 200+ data scientists globally.
-
+ 
+**Principal Product Manager | Multi-Agent AI Systems | Enterprise Platforms | 15+ Years Building 0→1 at Scale**
+ 
+I'm a product leader who believes the best PMs are technical enough to build, strategic enough to influence executives, and hands-on enough to ship. I design and build multi-agent AI systems, enterprise data platforms, and real-time infrastructure products that deliver measurable business impact.
+ 
+Currently driving AI product strategy at **Microsoft** (Teams Platform). Previously built enterprise data ecosystems at **Starbucks** serving 200+ data scientists globally.
+ 
 ---
-
-## 🤖 AI Agents & Tools I've Built
-
-Products I designed and built myself — not just managed.
-
-### ⭐ [Accomplice & Gauntlet](https://github.com/sjaligam-MS/accomplice-gauntlet) — a dual-agent system for PMs
-Two purpose-built agents with a hard, structural boundary between them: an **Accomplice** that widens a raw one-liner into a full product **intent** (divergent — "what else could this be?"), and a **Gauntlet** that stress-tests that intent across adversarial review lenses (convergent — "what's wrong with this?"). Both reason over a federated, provenance-tracked **memory layer**, so ideation and critique stay grounded in evidence.
-
-> **Why it matters:** it turns the core PM motion — diverge to explore, converge to pressure-test — into software, and keeps the two apart so neither contaminates the other.
-> **Stack:** Python · pluggable LLM backend · offline-first pipeline
-
-### 🏗️ [Parametric Cost Estimator](https://github.com/sjaligam-MS/GC_Cost_Estimator) — AI consulting engagement for a general contractor
-Scoped, designed, and built a conceptual cost-estimating tool for a residential general contractor as an independent AI consulting engagement — from first client conversation through a working, tested prototype. Deliberately deterministic (k-nearest-neighbors comparable-project matching, not an LLM or regression) so every output is auditable and no client cost data needs to leave their environment. CSI-division cost buildup with per-division confidence flagging, backtested against historical outcomes before any number is trusted.
-
-> **Why it matters:** end-to-end ownership of a real external client engagement — problem scoping, methodology tradeoffs, data strategy, security/deployment architecture, and shipped code — not a managed roadmap.
-> **Stack:** JavaScript (ES modules) · deterministic matching algorithm · Excel/VBA (parallel build) · Azure/Power Platform deployment design
-
-### 🎫 [AI Incident Classifier](https://github.com/sjaligam-MS/Townhall_Incident_Analyzer) — automated ticket triage
-Automated support-ticket triage using Claude AI that turns 5–7 days of manual incident analysis into ~2 minutes, and generates Excel reports + PowerPoint decks automatically.
-
-> **Why it matters:** production software deployed org-wide, triaging 100–150 incidents per cycle — built by a PM who ships.
-> **Stack:** Python · Claude API · pandas · openpyxl · python-pptx
-
-### 🎬 [Movie Recommendation Engine](https://github.com/sjaligam-MS/Movie_Recommendation_Bot) — semantic search with RAG
-Natural-language movie search using Gemini 2.0 Flash + RAG + FAISS vector indexing (e.g. *"suspenseful thrillers with strong female leads"* → ranked recommendations). Built as a Kaggle capstone to understand modern AI product architecture from the inside out.
-
-> **Why it matters:** RAG is the foundation of most AI products today — this demonstrates the architecture end-to-end.
-> **Stack:** Google Gemini 2.0 Flash · FAISS · RAG · few-shot prompting
-
----
-
+ 
 ## 🎯 What I Do
-
-- **🤖 Build AI products** — I don't just manage AI products, I build them: from Claude-powered automation agents to RAG-based recommendation systems to client-facing estimating tools.
-- **📈 Drive product-led growth** — orchestrated 800K+ seat enterprise migrations and 200+ organic-adoption motions without a sales team.
-- **💰 Protect revenue at scale** — $14M in protected revenue through strategic product decisions, competitive gap closure, and pricing.
-- **⚡ Optimize infrastructure** — 18% cost reduction, 92% ML prediction accuracy, and 2x engineering velocity through platform investments.
-
+ 
+- **🤖 Build Multi-Agent AI Systems**: Designing Accomplice & Gauntlet — a dual-agent system with structurally enforced ideation/adversarial boundary, federated PM Memory, and pluggable offline LLM backend
+- **⚡ Ship Production AI**: Two production AI agents at Microsoft — incident classifier (Claude API, 5–7 days → 2 minutes) and real-time ops monitoring agent (Gemini, live event quality at 20K+ concurrent participants)
+- **📈 Drive Enterprise Scale**: $14M+ revenue impact, 800K+ enterprise seats protected, 9+ organizations aligned simultaneously
+- **🏗️ Platform Thinking**: 0→1 data platforms serving 200+ data scientists at 75% daily active adoption; MLOps pipelines at 92% production accuracy
 ---
-
+ 
+## 🚀 Featured Projects
+ 
+### ⭐ [Accomplice & Gauntlet](https://github.com/sjaligam-MS/accomplice-gauntlet) *(in active development)*
+ 
+**Dual-agent system for product managers — structurally enforced ideation + adversarial review**
+ 
+- **Architecture**: Accomplice (divergent ideation) and Gauntlet (adversarial review) with a hard structural boundary — neither agent can perform the other's role, enforced architecturally not by convention
+- **Gauntlet**: Fans out across 12+ adversarial review lenses — governance, compliance, data/telemetry, responsible AI, reliability, engineering feasibility, GTM, competitive — each returning structured findings with severity and go/hold/no-go verdict
+- **PM Memory Layer**: Federates from 6 upstream source types — meeting intelligence, signal clustering, org knowledge, incident history, telemetry, service catalog — with provenance tagging (verified vs. inferred) and quality grading before reaching any agent
+- **Offline-capable**: Pluggable model backend; single-shot and conversational ideation modes; Hardener stage synthesizes cross-lens conflicts into backlog-ready specs
+- **Tech Stack**: Python, Claude API, multi-agent orchestration, federated memory architecture
+```
+# What it does in one line:
+PM idea → Accomplice ideates → Gauntlet stress-tests across 12+ lenses → Backlog-ready spec
+```
+ 
+**Why this matters**: This isn't a wrapper around an LLM. It's an opinionated multi-agent architecture with structural boundaries, federated memory, and adversarial review — built by a PM who understands the difference between a demo and a system.
+ 
+---
+ 
+### 🔥 [ICM Incident Classifier + Townhall Support Agent](https://github.com/sjaligam-MS/Townhall_Incident_Analyzer)
+ 
+**Two production AI agents covering the full incident lifecycle at Microsoft**
+ 
+- **ICM Classifier**: Defined inference architecture and prompt engineering framework using Claude API; owned 8-metric evaluation framework (classification confidence, false-positive rate, false-negative rate, escalation trigger accuracy, latency P50/P95, human review rate) before any production traffic
+- **Impact**: Reduced incident triage from 5–7 days to 2 minutes across 100–150 monthly incidents — org-wide production deployment, not a pilot
+- **Model Selection**: Claude over GPT-4 for classification reliability and audit trail traceability
+- **Townhall Support Agent**: Gemini Flash — agentic orchestration pattern: continuous telemetry ingestion → quality signal detection → threshold evaluation → automated incident report generation during live events at 20K+ concurrent participants
+- **Combined system**: Classifier handles async triage, monitoring agent handles live event ops — full incident lifecycle covered
+- **Tech Stack**: Python, Claude API, Gemini API, REST API integration, pandas, openpyxl, python-pptx
+```
+# What it does:
+Live event telemetry → Quality signal detection → Auto-drafted incident report before customer escalation
+100–150 monthly incidents → AI classification → 2-minute triage (was 5–7 days)
+```
+ 
+---
+ 
+### 📊 [Movie Recommendation Engine](https://github.com/sjaligam-MS/Movie_Recommendation_Bot)
+ 
+**Semantic search using Gemini 2.0 Flash + RAG + FAISS vector indexing**
+ 
+- **Goal**: Understand how modern AI recommendation products actually work from the inside
+- **Tech Stack**: Google Gemini 2.0 Flash, FAISS, RAG architecture, few-shot prompting, collaborative filtering, content-based filtering
+- **Key Insight**: Built to explore vector search, embeddings, and LLM reasoning at the application layer
+- **Product Thinking**: Integrated OTT/affiliate monetization model into the architecture
+```
+# Natural language query example:
+"Suspenseful thrillers with strong female leads" → Vector search → Ranked recommendations
+```
+ 
+---
+ 
+### 📋 [PM Frameworks](https://github.com/sjaligam-MS/pm-frameworks) *(in progress)*
+ 
+**Battle-tested templates from shipping products at Microsoft & Starbucks**
+ 
+- PRD templates (technical, consumer, 0→1)
+- Prioritization frameworks (Impact Score Model, Tech Debt vs Features)
+- OKR definition and tracking frameworks
+- Evaluation frameworks for AI product quality (accuracy, latency, confidence thresholds)
+- Stakeholder templates (Business cases, RFCs, Launch checklists)
+---
+ 
 ## 💼 Professional Background
-
-**Microsoft** — Senior Product Manager, AI Products *(Dec 2021–Present)*
-- Built AI capacity forecasting reaching 92% accuracy while cutting infrastructure cost 18%
-- Launched 1080p streaming to 20K+ concurrent participants
-- Drove platform-wide quality gains: 15% UX lift, captioning accuracy 87% → 94%
-
-**Starbucks** — Technical Product Manager, Enterprise Data Platforms *(May 2018–Jun 2020 · 200+ global users)*
-- Built the "360 Data Suite" (Customer360, Product360, Store360) from the ground up
-- Drove adoption to a 75% DAU/MAU ratio through product-led growth alone — no sales team
-- Enabled personalized marketing at scale across US & China markets
-
-**Lamb Weston** — Technical Program Manager, Enterprise Systems *(Oct 2012–May 2018)*
-- Ran enterprise systems delivery for global accounts including McDonald's and IHOP
-
+ 
+**Current**: Senior Product Manager @ **Microsoft** — Teams AI & Media Platform
+ 
+- Authored FY2027 Media Convergence strategy aligning 9+ organizations into single architectural direction
+- Shipped 1080p streaming for 20K+ concurrent participants (sub-2s P90 latency, protected $14M revenue)
+- Built COGS and pricing framework: unlocked $14M opportunity, prevented $7.9M revenue loss
+- Shipped two production AI agents: incident classifier (Claude API) + real-time monitoring agent (Gemini)
+**Previous**: Product Manager @ **Starbucks** — Enterprise Data Platforms
+ 
+- Built 360 Data Suite from zero: governed data layer for Marketing, Operations, Finance globally
+- Owned MLOps pipeline on Azure ML: 92% forecast accuracy in production
+- Architected Identity Stitching framework using MDM principles across 7 source systems
+- Drove 200+ data scientists to 75% daily active adoption through embedded delivery strategy
+**Earlier**: Technical Product Manager @ **Lamb Weston** — ERP & Supply Chain
+ 
+- Owned order management workflows for global accounts (McDonald's, IHOP)
+- Directed ERP system transitions for acquired companies globally
 ---
-
-## 🛠️ Tech Stack (a PM who codes)
-
-**Build with:**
+ 
+## 🧰 Tech Stack
+ 
+**Languages**:
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Excel/VBA](https://img.shields.io/badge/-Excel%2FVBA-217346?style=flat&logo=microsoftexcel&logoColor=white)
-
-**Ship AI with:**
-![Claude](https://img.shields.io/badge/-Claude%20AI-000000?style=flat)
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+ 
+**AI / Agent Systems**:
+![Claude](https://img.shields.io/badge/-Claude%20API-000000?style=flat)
 ![Gemini](https://img.shields.io/badge/-Google%20Gemini-4285F4?style=flat&logo=google&logoColor=white)
-
-**Platforms:**
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Azure ML](https://img.shields.io/badge/-Azure%20ML-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+ 
+**Data & MLOps**:
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
-
-**Data & analytics:** pandas · NumPy · Jupyter · Tableau · PowerPoint automation
-
+![FAISS](https://img.shields.io/badge/-FAISS-blue?style=flat)
+![pandas](https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white)
+ 
+**Builder Tools**:
+![Cursor](https://img.shields.io/badge/-Cursor-000000?style=flat)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+ 
 ---
-
+ 
+## 🧠 Currently Building & Learning
+ 
+- **Accomplice & Gauntlet**: Multi-agent orchestration with structural boundaries, federated memory, and adversarial review pipelines
+- **Eval frameworks at scale**: Designing multi-metric evaluation systems for production AI — confidence thresholds, false-positive tolerance, human escalation triggers
+- **Agentic memory architectures**: Federated PM Memory with provenance tracking (verified vs. inferred signals)
+- **Offline-capable LLM pipelines**: Pluggable model backends for enterprise deployment constraints
+---
+ 
+## 💡 Product Philosophy
+ 
+> *"The best PMs are technical enough to design the architecture, strategic enough to influence the C-suite, and hands-on enough to ship. Knowing which mode to be in — and when to switch — is the actual skill."*
+ 
+**What I believe**:
+- ✅ Production > Pilot
+- ✅ Evaluation frameworks > Vibes-based launches
+- ✅ Structural boundaries > Convention-based constraints
+- ✅ Provenance-tracked memory > Hallucinated context
+- ✅ Ship and iterate > Wait for perfect
+---
+ 
 ## 📫 Let's Connect
-
-I'm always up for AI product ideas, agent architectures, and product discussions — happy to review ideas, give feedback, or brainstorm.
-
-- 💼 **LinkedIn:** [linkedin.com/in/srikanthjaligam](https://www.linkedin.com/in/srikanthjaligam/)
-- 📧 **Email:** srikanth.jaligam@gmail.com
-- 🌐 **Location:** Seattle, WA (open to remote)
-
+ 
+- 💼 **LinkedIn**: [linkedin.com/in/srikanthjaligam](https://www.linkedin.com/in/srikanthjaligam/)
+- 📧 **Email**: srikanth.jaligam@gmail.com
+- 🌐 **Location**: Seattle, WA (Open to remote)
+- 💻 **GitHub**: You're already here
 ---
-
-<div align="center">
-
-> *"The best PMs can code enough to prototype, understand engineering deeply enough to make informed tradeoffs, and think strategically enough to influence executives."*
-
-**🚀 Building products that matter. Shipping code that works.**
-**⭐ If you find my work helpful, consider starring a repo!**
-
-</div>
+ 
+*Building multi-agent AI systems. Shipping things that run in production. Learning in public.*
+ 
