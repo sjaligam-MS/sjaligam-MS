@@ -69,17 +69,6 @@ Live event telemetry → Quality signal detection → Auto-drafted incident repo
  
 ---
  
-### 📋 [PM Frameworks](https://github.com/sjaligam-MS/pm-frameworks) *(in progress)*
- 
-**Battle-tested templates from shipping products at Microsoft & Starbucks**
- 
-- PRD templates (technical, consumer, 0→1)
-- Prioritization frameworks (Impact Score Model, Tech Debt vs Features)
-- OKR definition and tracking frameworks
-- Evaluation frameworks for AI product quality (accuracy, latency, confidence thresholds)
-- Stakeholder templates (Business cases, RFCs, Launch checklists)
----
- 
 ## 💼 Professional Background
  
 **Current**: Senior Product Manager @ **Microsoft** — Teams AI & Media Platform
